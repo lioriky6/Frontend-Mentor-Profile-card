@@ -1,0 +1,89 @@
+body{
+    background-color: hsl(185, 75%, 39%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Kanit;
+    font-weight: 400;
+    overflow: hidden;
+    height: 100vh;
+    width: 100vw;
+
+}
+
+.container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    height: 30rem;
+    width: 25rem;
+    border-radius: 5%;
+}
+
+.top_card{
+    height: 10rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.bottom_card{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 70%;
+    box-shadow: 0 -10px 15px lightgray;
+}
+
+.stats{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.stats_text{
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: hsl(227, 10%, 46%)
+}
+
+.stats_quantity{
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: hsl(229, 23%, 23%);
+}
+
+.bg-pattern-top{
+    position: absolute;
+    top: -500px;
+    left: -200px;
+    scale: 1.4;
+    z-index: -1;
+}
+
+.bg-pattern-bottom{
+    position: absolute;
+    top: 500px;
+    right: -200px;
+    scale: 1.2;
+    z-index: -1;
+}
+
+.pfp{
+    position: relative;
+    top: -410px;
+    border-radius: 100%;
+    scale: 0.25;
+    border: 1rem solid white;
+}
